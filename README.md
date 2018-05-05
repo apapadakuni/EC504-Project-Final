@@ -30,9 +30,10 @@ graph.txt: sample graph in the form of V1 V2 Weight(V1,V2)
 
 
 -------------------------------------------------------------------------------------
-How to run Simulations: (For large numbers, might take a while)
+How to run Simulations: (For large numbers, might take a while):
 
-
+Fibonacci Heaps: Run "g++ fibtest.cpp -o fibtest" to compile and name the executable file "fibtest"
+Then run "./fibtest.sh" to run the simulation. The runtimes are outputted on the scale of nanoseconds.
 
 
 
