@@ -1,10 +1,4 @@
-//
-//  main.cpp
-//  Dijkstra
-//
-//  Created by Tali Moreshet
-//  Copyright © 2017 Tali Moreshet. All rights reserved.
-//
+
 
 #include <iostream>
 #include <list>
@@ -25,12 +19,11 @@ int main() {
     
     
     Graph graph;
-    // for part (a)
-    graph.generateGraph("graph.txt");
-   // graph.print();
 
-    // for part (b)
-    //graph.modifiedDijkstra(0);
+    graph.generateGraph("graph.txt");
+    graph.print();
+
+
     auto begin = chrono::high_resolution_clock::now();
 
     int n = graph.getNumVertices();
