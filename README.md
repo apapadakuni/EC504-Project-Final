@@ -39,7 +39,7 @@ Then run "./fibtest.sh" to run the simulation. The runtimes are outputted on the
 
 How to run Dijkstra's: (only works with small # of Vertices)
 
-Being in the directory with all files, run "g++ GraphVEB.cpp" or "g++ GraphFib.cpp" will return a clear depiciton of the Graph printed in a readable format as well as a the shortest path starting at Vertex 0 to all other nodes.
+Being in the directory with all files, run "g++ GraphVEB.cpp" or "g++ GraphFib.cpp" and your outpue will return a clear depiciton of the Graph printed in a readable format as well as a the shortest path starting at Vertex 0 to all other nodes.
 
 
 
