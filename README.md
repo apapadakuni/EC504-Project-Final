@@ -7,7 +7,12 @@ eVEB.h: class definition of space Efficient VEB Trees
 
 eVEB.cpp: functions of Insert, Delete, GetCount
 
-Fib.h: class definition of Fibonacci Heaps and their functions
+Fibheap.h: class definition of Fibonacci Heaps and their functions
+Source: https://github.com/beniz/fiboheap/blob/master/fiboheap.h
+
+Fibtest.cpp: main function to simulate Fibonacci Heaps runtime
+
+runtime.sh: script to simulate Fibonacci Heaps for dense and sparse graphs with varying graph sizes (The larger graphs take awhile to run)
 
 Graph.h: class defintion of Graph
 
